@@ -30,6 +30,11 @@ jspm_packages/
 *.tgz
 .yarn-integrity
 .cache
+*.d.ts
+*.js
+cdktf.out
+terraform.tfstate*
+.gen
 !/.projenrc.js
 /test-reports/
 junit.xml

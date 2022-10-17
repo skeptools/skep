@@ -25,6 +25,7 @@
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
+    "cdktf": "~0",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^3.5.1",
@@ -38,6 +39,10 @@
     "ts-jest": "^27",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@skeptools/plugin-github": "~0",
+    "@skeptools/skep-core": "~0"
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
