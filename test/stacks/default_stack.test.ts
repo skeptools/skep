@@ -1,8 +1,8 @@
 import { App } from 'cdktf';
-import { DefaultStack, Integrations } from '../../src';
 import { organization } from './config/organization';
 import * as people from './config/people';
 import * as teams from './config/teams';
+import { DefaultStack, Integrations } from '../../src';
 
 
 export type PeopleKeys = Extract<keyof typeof people, string>;
